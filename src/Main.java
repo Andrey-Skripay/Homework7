@@ -39,5 +39,17 @@ public class Main {
             System.out.println("Год " + years+ " ,численность населения составляет " + population );
 
         }
+
+        // Задача 4
+
+        int savings1 = 15_000; // Переменная сумма вклада
+        int month3 = 0;
+        double interest = 0.07;
+        while (savings1  < 12_000_000){
+            savings1 += savings1 * interest;
+            month3++;
+            System.out.println("Месяц " + month3 + " Итого " + savings1);
+        }
+
     }
 }
