@@ -74,6 +74,17 @@ public class Main {
             System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет");
         }
 
+        // Задача 8
+
+        int currentYear = 2017;
+        int startYear = currentYear - 200;
+        int endYear = currentYear + 100;
+
+        for (int year1 = startYear; year1 <= endYear; year1 += 79) {
+            System.out.println(year1);
+
+        }
+
 
 
     }
