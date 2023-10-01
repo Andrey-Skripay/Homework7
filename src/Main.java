@@ -66,6 +66,14 @@ public class Main {
             }
         }
 
+        // Задача 7
+
+        int firstFriday = 2; // Номер первой пятницы месяца (от 1 до 7)
+
+        for (int day = firstFriday; day <= 31; day += 7) {
+            System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет");
+        }
+
 
 
     }
