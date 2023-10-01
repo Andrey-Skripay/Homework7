@@ -13,6 +13,21 @@ public class Main {
             System.out.println("Месяц " + month + " Итого " + total);
         }
 
+        // Задача 2
+
+        int start = 1;
+        while (start <= 10) {
+            System.out.print (" " + start);
+            start = start + 1;
+        }
+        System.out.println(" ");
+        int start1 = 10;
+        for (; start1 >= 1;){
+            System.out.print (" " + start1);
+            start1 = start1 - 1;
+        }
+
+
 
 
 
