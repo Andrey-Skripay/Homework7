@@ -42,7 +42,7 @@ public class Main {
 
         // Задача 4 и задача 5
 
-        int savings1 = 15_000; // Переменная сумма вклада
+        int savings1 = 15_000; // Переменная сумма накопления
         int month3 = 0;
         double interest = 0.07;
         while (savings1  < 12_000_000){
@@ -53,7 +53,18 @@ public class Main {
             }
         }
 
-        //Задача 5
+        //Задача 6
+
+        int savings2 = 15_000; // Переменная сумма накопления
+        int month4 = 0;
+        double interest1 = 0.07;
+        while (month4  < 108){
+            savings2 += savings2 * interest1;
+            month4++;
+            if (month4 % 6 == 0) {
+                System.out.println("Месяц " + month4 + " Итого " + savings2);
+            }
+        }
 
 
 
