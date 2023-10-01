@@ -22,14 +22,22 @@ public class Main {
         }
         System.out.println(" ");
         int start1 = 10;
-        for (; start1 >= 1;){
+        for (; start1 >= 1;) {
             System.out.print (" " + start1);
             start1 = start1 - 1;
         }
 
+        //Задача 3
+        System.out.println(" ");
+        int population = 12_000_000;
+        int fertility = (population / 1000) * 17 ; // Расчет рождаемости насления на 1000 человек
+        int mortality = (population / 1000) * 8; // Расчет смертность насления на 1000 человек
+        int years = 0;
+        for (; years < 10;) {
+            population = population + fertility - mortality;
+            years = years + 1;
+            System.out.println("Год " + years+ " ,численность населения составляет " + population );
 
-
-
-
+        }
     }
 }
